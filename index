@@ -1,7 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+<head>
+    <title>Bulldog`s</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
+    h1  {color: firebrick;}
+    p   {color:rgb(0, 0, 0)}
+    </style>
+    <link rel="stylesheet" href="stye.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <style>
+        h1{
+            font: 30px fantasy;
+            color:crimson;
+            border: 5px groove black;
+        }
+
+        p{
+           font: 15px Arial Narrow, sans-serif
+        }
+        form{margin: 0 auto;
+            width: 400px;
+            padding: 1em;
+            border: 1px solid #CCC;
+            border-radius: 1em;
+        }
+        body{ background-color: gold;}
+    </style>
+    <h1> Bulldog`s</h1>
+    <img src="https://files.menudino.com/cardapios/191/logo.png" alt="iggy_doguinho" width="200" height="200">
+    <p> Bem-vindo a Bulldog`s hamburgueria! Os melhores preços com o melhor sabor da cidade!</p>
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/1d/2e/6c/95/chilis-mexicano.jpg" alt="hamburgeria">
+    <table> 
+    <tr>
+        <th> Quarteirão presunto</th>
+        <th> Big Eggs</th>
+        <th> Especial da casa</th>
+        <th> Rei Dogão</th>
+    </tr>
+    <tr>
+        <td> R$24,00 </td>
+        <td> R$22,00 </td>
+        <td> R$24,00 </td>
+        <td> R$37,00</td>
+    </tr>
+
+    </table>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <p> Entre em contato conosco </p>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" required />
+        </div>
+        <div>
+            <label for="phone">Telefone:</label>
+            <input type="number" id="phone" required>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+        </div>
+    </form>
+
 </body>
 </html>
